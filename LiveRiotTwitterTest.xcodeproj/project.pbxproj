@@ -35,6 +35,14 @@
 		188DD00F180B573900AD6361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DD006180B573900AD6361 /* main.m */; };
 		188DD010180B573900AD6361 /* STTwitterDemoIOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188DD007180B573900AD6361 /* STTwitterDemoIOS-Info.plist */; };
 		188DD011180B573900AD6361 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DD00A180B573900AD6361 /* ViewController.m */; };
+		188DD024180B593E00AD6361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188DD014180B593D00AD6361 /* Main.storyboard */; };
+		188DD025180B593E00AD6361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188DD016180B593D00AD6361 /* InfoPlist.strings */; };
+		188DD026180B593E00AD6361 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188DD018180B593D00AD6361 /* Images.xcassets */; };
+		188DD027180B593E00AD6361 /* LiveRiotTwitterTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188DD019180B593D00AD6361 /* LiveRiotTwitterTest-Info.plist */; };
+		188DD028180B593E00AD6361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DD01B180B593D00AD6361 /* main.m */; };
+		188DD029180B593E00AD6361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188DD020180B593E00AD6361 /* InfoPlist.strings */; };
+		188DD02A180B593E00AD6361 /* LiveRiotTwitterTestTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188DD022180B593E00AD6361 /* LiveRiotTwitterTestTests-Info.plist */; };
+		188DD02B180B593E00AD6361 /* LiveRiotTwitterTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188DD023180B593E00AD6361 /* LiveRiotTwitterTestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 188DCF9C180B56B900AD6361;
 			remoteInfo = LiveRiotTwitterTest;
+		};
+		188DD02E180B593E00AD6361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188DD01C180B593D00AD6361 /* LiveRiotTwitterTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 188DCF9D180B56B900AD6361;
+			remoteInfo = LiveRiotTwitterTest;
+		};
+		188DD030180B593E00AD6361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188DD01C180B593D00AD6361 /* LiveRiotTwitterTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 188DCFBE180B56B900AD6361;
+			remoteInfo = LiveRiotTwitterTestTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -92,6 +114,16 @@
 		188DD008180B573900AD6361 /* STTwitterDemoIOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "STTwitterDemoIOS-Prefix.pch"; path = "../../STTwitter/demo_ios/STTwitterDemoIOS/STTwitterDemoIOS-Prefix.pch"; sourceTree = "<group>"; };
 		188DD009180B573900AD6361 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../STTwitter/demo_ios/STTwitterDemoIOS/ViewController.h; sourceTree = "<group>"; };
 		188DD00A180B573900AD6361 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../STTwitter/demo_ios/STTwitterDemoIOS/ViewController.m; sourceTree = "<group>"; };
+		188DD015180B593D00AD6361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188DD017180B593D00AD6361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188DD018180B593D00AD6361 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		188DD019180B593D00AD6361 /* LiveRiotTwitterTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LiveRiotTwitterTest-Info.plist"; sourceTree = "<group>"; };
+		188DD01A180B593D00AD6361 /* LiveRiotTwitterTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LiveRiotTwitterTest-Prefix.pch"; sourceTree = "<group>"; };
+		188DD01B180B593D00AD6361 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188DD01C180B593D00AD6361 /* LiveRiotTwitterTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LiveRiotTwitterTest.xcodeproj; sourceTree = "<group>"; };
+		188DD021180B593E00AD6361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188DD022180B593E00AD6361 /* LiveRiotTwitterTestTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LiveRiotTwitterTestTests-Info.plist"; sourceTree = "<group>"; };
+		188DD023180B593E00AD6361 /* LiveRiotTwitterTestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRiotTwitterTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +153,6 @@
 		188DCF94180B56B900AD6361 = {
 			isa = PBXGroup;
 			children = (
-				188DCFFE180B573900AD6361 /* STTwitterDemoIOS */,
 				188DCFF7180B570700AD6361 /* Art */,
 				188DCFA6180B56B900AD6361 /* LiveRiotTwitterTest */,
 				188DCFC5180B56B900AD6361 /* LiveRiotTwitterTestTests */,
@@ -189,6 +220,7 @@
 		188DCFD5180B56F400AD6361 /* STTwitter */ = {
 			isa = PBXGroup;
 			children = (
+				188DD012180B593D00AD6361 /* LiveRiotTwitterTest */,
 				188DCFD6180B56F400AD6361 /* NSString+STTwitter.h */,
 				188DCFD7180B56F400AD6361 /* NSString+STTwitter.m */,
 				188DCFD8180B56F400AD6361 /* STHTTPRequest+STTwitter.h */,
@@ -235,12 +267,46 @@
 			path = ../STTwitter/Art;
 			sourceTree = "<group>";
 		};
-		188DCFFE180B573900AD6361 /* STTwitterDemoIOS */ = {
+		188DD012180B593D00AD6361 /* LiveRiotTwitterTest */ = {
 			isa = PBXGroup;
 			children = (
+				188DD013180B593D00AD6361 /* LiveRiotTwitterTest */,
+				188DD01C180B593D00AD6361 /* LiveRiotTwitterTest.xcodeproj */,
+				188DD01F180B593E00AD6361 /* LiveRiotTwitterTestTests */,
 			);
-			name = STTwitterDemoIOS;
-			path = ../STTwitter/demo_ios/STTwitterDemoIOS;
+			path = LiveRiotTwitterTest;
+			sourceTree = "<group>";
+		};
+		188DD013180B593D00AD6361 /* LiveRiotTwitterTest */ = {
+			isa = PBXGroup;
+			children = (
+				188DD014180B593D00AD6361 /* Main.storyboard */,
+				188DD016180B593D00AD6361 /* InfoPlist.strings */,
+				188DD018180B593D00AD6361 /* Images.xcassets */,
+				188DD019180B593D00AD6361 /* LiveRiotTwitterTest-Info.plist */,
+				188DD01A180B593D00AD6361 /* LiveRiotTwitterTest-Prefix.pch */,
+				188DD01B180B593D00AD6361 /* main.m */,
+			);
+			path = LiveRiotTwitterTest;
+			sourceTree = "<group>";
+		};
+		188DD01D180B593D00AD6361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188DD02F180B593E00AD6361 /* LiveRiotTwitterTest.app */,
+				188DD031180B593E00AD6361 /* LiveRiotTwitterTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188DD01F180B593E00AD6361 /* LiveRiotTwitterTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				188DD020180B593E00AD6361 /* InfoPlist.strings */,
+				188DD022180B593E00AD6361 /* LiveRiotTwitterTestTests-Info.plist */,
+				188DD023180B593E00AD6361 /* LiveRiotTwitterTestTests.m */,
+			);
+			path = LiveRiotTwitterTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +373,12 @@
 			mainGroup = 188DCF94180B56B900AD6361;
 			productRefGroup = 188DCF9E180B56B900AD6361 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 188DD01D180B593D00AD6361 /* Products */;
+					ProjectRef = 188DD01C180B593D00AD6361 /* LiveRiotTwitterTest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				188DCF9C180B56B900AD6361 /* LiveRiotTwitterTest */,
@@ -315,17 +387,40 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		188DD02F180B593E00AD6361 /* LiveRiotTwitterTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LiveRiotTwitterTest.app;
+			remoteRef = 188DD02E180B593E00AD6361 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		188DD031180B593E00AD6361 /* LiveRiotTwitterTestTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LiveRiotTwitterTestTests.xctest;
+			remoteRef = 188DD030180B593E00AD6361 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		188DCF9B180B56B900AD6361 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				188DD00E180B573900AD6361 /* Images.xcassets in Resources */,
+				188DD029180B593E00AD6361 /* InfoPlist.strings in Resources */,
+				188DD026180B593E00AD6361 /* Images.xcassets in Resources */,
+				188DD027180B593E00AD6361 /* LiveRiotTwitterTest-Info.plist in Resources */,
 				188DD00C180B573900AD6361 /* InfoPlist.strings in Resources */,
 				188DCFFB180B570700AD6361 /* ios.png in Resources */,
+				188DD024180B593E00AD6361 /* Main.storyboard in Resources */,
 				188DD00D180B573900AD6361 /* Main.storyboard in Resources */,
+				188DD02A180B593E00AD6361 /* LiveRiotTwitterTestTests-Info.plist in Resources */,
 				188DCFFC180B570700AD6361 /* osx.png in Resources */,
 				188DD010180B573900AD6361 /* STTwitterDemoIOS-Info.plist in Resources */,
+				188DD025180B593E00AD6361 /* InfoPlist.strings in Resources */,
 				188DCFFD180B570700AD6361 /* tweet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +452,9 @@
 				188DD00F180B573900AD6361 /* main.m in Sources */,
 				188DCFF4180B56F400AD6361 /* BAVPlistNode.m in Sources */,
 				188DCFF3180B56F400AD6361 /* STTwitterOS.m in Sources */,
+				188DD028180B593E00AD6361 /* main.m in Sources */,
 				188DCFEE180B56F400AD6361 /* STHTTPRequest+STTwitter.m in Sources */,
+				188DD02B180B593E00AD6361 /* LiveRiotTwitterTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +501,30 @@
 			);
 			name = Main.storyboard;
 			path = ../../STTwitter/demo_ios/STTwitterDemoIOS;
+			sourceTree = "<group>";
+		};
+		188DD014180B593D00AD6361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188DD015180B593D00AD6361 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188DD016180B593D00AD6361 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188DD017180B593D00AD6361 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188DD020180B593E00AD6361 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188DD021180B593E00AD6361 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

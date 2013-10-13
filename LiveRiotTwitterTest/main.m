@@ -1,9 +1,9 @@
 //
 //  main.m
-//  LiveRiotTwitterTest
+//  STTwitterDemoiOS
 //
-//  Created by apple on 10/13/13.
-//  Copyright (c) 2013 HaoyuHuang. All rights reserved.
+//  Created by Nicolas Seriot on 10/1/13.
+//  Copyright (c) 2013 Nicolas Seriot. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
